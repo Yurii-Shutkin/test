@@ -1,0 +1,59 @@
+.container {
+    max-width: 440px;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+h1 {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.yes {
+    color: rgb(44, 201, 44);
+    font-size: 22px;
+}
+
+.no {
+    color: #c52424;
+    font-size: 22px;
+}
+
+#no:not(:checked) + label {
+    color: #c52424;
+}
+
+#no:checked + label {
+    color: #2cc92c;
+}
+
+.message1 {
+    font-size: 20px;
+}
+
+.inpWrap {
+    margin-bottom: 20px;
+}
+
+.message2 {
+    font-size: 20px;
+}
+
+.btn {
+    display: none;
+    margin: 0 auto;
+    background-color: #6dc16d;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 20px;
+}
